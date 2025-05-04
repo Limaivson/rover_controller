@@ -18,22 +18,18 @@ class RoverController(Node):
         linear = msg.linear.x
         angular = msg.angular.z
 
-        # Movimento reto
         if linear != 0.0 and angular == 0.0:
             speed_left = linear
             speed_right = linear
 
-        # Giro no próprio eixo
         elif linear == 0.0 and angular != 0.0:
             speed_left = -angular
             speed_right = angular
 
-        # Curvas (um motor para, outro anda)
         elif linear != 0.0 and angular != 0.0:
             speed_left = linear - angular
             speed_right = linear + angular
 
-        # Parado
         else:
             speed_left = 0.0
             speed_right = 0.0
