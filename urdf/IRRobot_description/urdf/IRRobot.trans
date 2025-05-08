@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<robot name="IRRobot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="limb4_to_motor_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="limb4_to_motor">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="limb4_to_motor_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="limb1_to_motor_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="limb1_to_motor">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="limb1_to_motor_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="limb2_to_motor_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="limb2_to_motor">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="limb2_to_motor_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="limb3_to_motor_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="limb3_to_motor">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="limb3_to_motor_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
