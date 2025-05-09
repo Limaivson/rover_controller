@@ -25,21 +25,42 @@
   </collision>
 </link>
 
-<link name="box_motor_1_1">
+<link name="front_base_1">
   <inertial>
-    <origin xyz="-0.010634642706834604 -0.010756073221908219 -0.013698698265978554" rpy="0 0 0"/>
-    <mass value="0.0969363525800495"/>
-    <inertia ixx="2.1e-05" iyy="4.3e-05" izz="3.7e-05" ixy="1e-06" iyz="-3e-06" ixz="2e-06"/>
+    <origin xyz="-0.004484384677440348 -0.057999511488397534 -0.02703927126859043" rpy="0 0 0"/>
+    <mass value="0.5675476589192235"/>
+    <inertia ixx="0.002217" iyy="0.000313" izz="0.001971" ixy="0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.085 0.07 0.002768" rpy="0 0 0"/>
+    <origin xyz="0.103 -0.058 -0.063232" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/front_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.103 -0.058 -0.063232" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/front_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="box_motor_1_1">
+  <inertial>
+    <origin xyz="0.010634642706834702 0.010756073221909426 -0.013698698265978627" rpy="0 0 0"/>
+    <mass value="0.0969363525800491"/>
+    <inertia ixx="2.1e-05" iyy="4.3e-05" izz="3.7e-05" ixy="1e-06" iyz="3e-06" ixz="-2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.075 -0.07 0.002768" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find irrobot_description)/meshes/box_motor_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.085 0.07 0.002768" rpy="0 0 0"/>
+    <origin xyz="0.075 -0.07 0.002768" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find irrobot_description)/meshes/box_motor_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -48,9 +69,9 @@
 
 <link name="box_motor_2_1">
   <inertial>
-    <origin xyz="-0.010634642706834563 0.02299999999999995 -0.013698698265978537" rpy="0 0 0"/>
-    <mass value="0.19387270516009888"/>
-    <inertia ixx="7.1e-05" iyy="8.6e-05" izz="0.000103" ixy="0.0" iyz="0.0" ixz="4e-06"/>
+    <origin xyz="-0.010634642706834688 0.010756073221909399 -0.013698698265978547" rpy="0 0 0"/>
+    <mass value="0.0969363525800495"/>
+    <inertia ixx="2.1e-05" iyy="4.3e-05" izz="3.7e-05" ixy="-1e-06" iyz="3e-06" ixz="2e-06"/>
   </inertial>
   <visual>
     <origin xyz="-0.085 -0.07 0.002768" rpy="0 0 0"/>
@@ -69,9 +90,9 @@
 
 <link name="box_motor_3_1">
   <inertial>
-    <origin xyz="0.04160000034272672 -0.010756073221908302 -0.01369869826597855" rpy="0 0 0"/>
-    <mass value="0.19387270516009908"/>
-    <inertia ixx="4.2e-05" iyy="0.000272" izz="0.00026" ixy="0.0" iyz="-6e-06" ixz="0.0"/>
+    <origin xyz="0.010634642706834702 -0.010756073221909579 -0.013698698265978668" rpy="0 0 0"/>
+    <mass value="0.09693635258004872"/>
+    <inertia ixx="2.1e-05" iyy="4.3e-05" izz="3.7e-05" ixy="-1e-06" iyz="-3e-06" ixz="-2e-06"/>
   </inertial>
   <visual>
     <origin xyz="0.075 0.07 0.002768" rpy="0 0 0"/>
@@ -90,156 +111,114 @@
 
 <link name="box_motor_4_1">
   <inertial>
-    <origin xyz="0.051921786221357416 0.018918691073969318 -0.013698698265978533" rpy="0 0 0"/>
-    <mass value="0.2908090577401484"/>
-    <inertia ixx="0.000102" iyy="0.000377" izz="0.000398" ixy="-4.8e-05" iyz="3e-06" ixz="2e-06"/>
+    <origin xyz="-0.010634642706834604 -0.010756073221909551 -0.013698698265978602" rpy="0 0 0"/>
+    <mass value="0.09693635258004962"/>
+    <inertia ixx="2.1e-05" iyy="4.3e-05" izz="3.7e-05" ixy="1e-06" iyz="-3e-06" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.075 -0.07 0.002768" rpy="0 0 0"/>
+    <origin xyz="-0.085 0.07 0.002768" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find irrobot_description)/meshes/box_motor_4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.075 -0.07 0.002768" rpy="0 0 0"/>
+    <origin xyz="-0.085 0.07 0.002768" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find irrobot_description)/meshes/box_motor_4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="Frente_do_rover_1">
+<link name="motor_right_1_1">
   <inertial>
-    <origin xyz="-0.004484384677440542 -0.057999511488397326 -0.02703927126859037" rpy="0 0 0"/>
-    <mass value="0.5675476589192235"/>
-    <inertia ixx="0.002217" iyy="0.000313" izz="0.001971" ixy="0.0" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.103 -0.058 -0.063232" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/Frente_do_rover_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.103 -0.058 -0.063232" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/Frente_do_rover_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="right_motor_2__1">
-  <inertial>
-    <origin xyz="-0.040650001183152346 0.01044587685492343 -2.746126695589435e-07" rpy="0 0 0"/>
-    <mass value="0.021664868233568425"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.0894 0.0915 0.021218" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/right_motor_2__1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.0894 0.0915 0.021218" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/right_motor_2__1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="right_wheel_2_1">
-  <inertial>
-    <origin xyz="-0.0011999996572732152 -0.033097991424556605 0.10649972538733045" rpy="0 0 0"/>
-    <mass value="0.2627861963198363"/>
-    <inertia ixx="8.7e-05" iyy="0.000159" izz="8.7e-05" ixy="0.0" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.0906 0.070282 0.127718" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/right_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.0906 0.070282 0.127718" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/right_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="left_motor_2_1">
-  <inertial>
-    <origin xyz="-0.04065000118315238 -0.010445876854922972 -2.746126695762907e-07" rpy="0 0 0"/>
-    <mass value="0.021664868233568425"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.0894 -0.0915 0.021218" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/left_motor_2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.0894 -0.0915 0.021218" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/left_motor_2_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="left_motor_1_1">
-  <inertial>
-    <origin xyz="0.0406500011831524 -0.01044587685492318 -2.74612669493024e-07" rpy="0 0 0"/>
-    <mass value="0.021664868233568425"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.0794 -0.0915 0.021218" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/left_motor_1_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.0794 -0.0915 0.021218" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/left_motor_1_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="right_motor_1_1">
-  <inertial>
-    <origin xyz="0.040650001183152686 0.01044587685492275 -2.7461266954159624e-07" rpy="0 0 0"/>
-    <mass value="0.021664868233568425"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+    <origin xyz="0.015523126340643192 0.0096279023719327 -2.7461529960443043e-07" rpy="0 0 0"/>
+    <mass value="0.17583049484672683"/>
+    <inertia ixx="1.2e-05" iyy="5.1e-05" izz="5e-05" ixy="-1e-06" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
     <origin xyz="0.0794 0.0915 0.021218" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/right_motor_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_right_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.0794 0.0915 0.021218" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find irrobot_description)/meshes/right_motor_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_right_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor_right_2_1">
+  <inertial>
+    <origin xyz="-0.015523126340642901 0.0096279023719327 -2.7461003963488717e-07" rpy="0 0 0"/>
+    <mass value="0.17583049484672683"/>
+    <inertia ixx="1.2e-05" iyy="5.1e-05" izz="5e-05" ixy="1e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0894 0.0915 0.021218" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_right_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0894 0.0915 0.021218" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_right_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor_left_2_1">
+  <inertial>
+    <origin xyz="-0.015523126340643054 -0.009627902371932881 -2.746152995211637e-07" rpy="0 0 0"/>
+    <mass value="0.17583049484672683"/>
+    <inertia ixx="1.2e-05" iyy="5.1e-05" izz="5e-05" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0894 -0.0915 0.021218" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_left_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0894 -0.0915 0.021218" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_left_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor_left_1_1">
+  <inertial>
+    <origin xyz="0.015523126340643026 -0.009627902371932937 -2.746100396210094e-07" rpy="0 0 0"/>
+    <mass value="0.17583049484672683"/>
+    <inertia ixx="1.2e-05" iyy="5.1e-05" izz="5e-05" ixy="1e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0794 -0.0915 0.021218" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_left_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0794 -0.0915 0.021218" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/motor_left_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <link name="left_wheel_1_1">
   <inertial>
-    <origin xyz="0.2021999996572732 0.033097991424556494 -0.06230027461266955" rpy="0 0 0"/>
+    <origin xyz="0.20219999965727325 0.033097991424556564 -0.062300274612669584" rpy="0 0 0"/>
     <mass value="0.2627861963198363"/>
-    <inertia ixx="8.7e-05" iyy="0.000159" izz="8.7e-05" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+    <inertia ixx="8.7e-05" iyy="0.000159" izz="8.7e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
     <origin xyz="0.2816 -0.070282 -0.041082" rpy="0 0 0"/>
@@ -258,7 +237,7 @@
 
 <link name="left_wheel_2_1">
   <inertial>
-    <origin xyz="-0.20219999965727337 0.03309799142455655 -0.10650027461266962" rpy="0 0 0"/>
+    <origin xyz="-0.2021999996572733 0.03309799142455658 -0.10650027461266952" rpy="0 0 0"/>
     <mass value="0.2627861963198363"/>
     <inertia ixx="8.7e-05" iyy="0.000159" izz="8.7e-05" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
@@ -279,7 +258,7 @@
 
 <link name="right_wheel_1_1">
   <inertial>
-    <origin xyz="0.001199999657273229 -0.033097991424556744 0.06229972538733042" rpy="0 0 0"/>
+    <origin xyz="0.0011999996572734373 -0.03309799142455687 0.06229972538733035" rpy="0 0 0"/>
     <mass value="0.2627861963198363"/>
     <inertia ixx="8.7e-05" iyy="0.000159" izz="8.7e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
@@ -298,86 +277,107 @@
   </collision>
 </link>
 
-<joint name="Rígido 1" type="fixed">
-  <origin xyz="0.085 -0.07 -0.002768" rpy="0 0 0"/>
+<link name="right_wheel_2_1">
+  <inertial>
+    <origin xyz="-0.0011999996572732013 -0.03309799142455683 0.1064997253873304" rpy="0 0 0"/>
+    <mass value="0.2627861963198363"/>
+    <inertia ixx="8.7e-05" iyy="0.000159" izz="8.7e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0906 0.070282 0.127718" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/right_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0906 0.070282 0.127718" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find irrobot_description)/meshes/right_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="front_joint" type="fixed">
+  <origin xyz="-0.103 0.058 0.063232" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="front_base_1"/>
+</joint>
+
+<joint name="box_motor_1_joint" type="fixed">
+  <origin xyz="-0.075 0.07 -0.002768" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="box_motor_1_1"/>
 </joint>
 
-<joint name="Rígido 4" type="fixed">
+<joint name="box_motor_2_joint" type="fixed">
   <origin xyz="0.085 0.07 -0.002768" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="box_motor_2_1"/>
 </joint>
 
-<joint name="Rígido 5" type="fixed">
+<joint name="box_motor_3_joint" type="fixed">
   <origin xyz="-0.075 -0.07 -0.002768" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="box_motor_3_1"/>
 </joint>
 
-<joint name="Rígido 6" type="fixed">
-  <origin xyz="-0.075 0.07 -0.002768" rpy="0 0 0"/>
+<joint name="box_motor_4_joint" type="fixed">
+  <origin xyz="0.085 -0.07 -0.002768" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="box_motor_4_1"/>
 </joint>
 
-<joint name="Rígido 13" type="fixed">
-  <origin xyz="-0.103 0.058 0.063232" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="Frente_do_rover_1"/>
-</joint>
-
-<joint name="Rígido 14" type="fixed">
-  <origin xyz="0.0044 -0.0215 -0.01845" rpy="0 0 0"/>
-  <parent link="box_motor_1_1"/>
-  <child link="right_motor_2__1"/>
-</joint>
-
-<joint name="limb4_to_motor" type="continuous">
-  <origin xyz="0.0012 0.021218 -0.1065" rpy="0 0 0"/>
-  <parent link="right_motor_2__1"/>
-  <child link="right_wheel_2_1"/>
-  <axis xyz="0.0 1.0 0.0"/>
-</joint>
-
-<joint name="Rígido 16" type="fixed">
-  <origin xyz="0.0044 0.0215 -0.01845" rpy="0 0 0"/>
-  <parent link="box_motor_2_1"/>
-  <child link="left_motor_2_1"/>
-</joint>
-
-<joint name="Rígido 17" type="fixed">
-  <origin xyz="-0.0044 0.0215 -0.01845" rpy="0 0 0"/>
-  <parent link="box_motor_4_1"/>
-  <child link="left_motor_1_1"/>
-</joint>
-
-<joint name="Rígido 18" type="fixed">
+<joint name="motor_2_joint" type="fixed">
   <origin xyz="-0.0044 -0.0215 -0.01845" rpy="0 0 0"/>
   <parent link="box_motor_3_1"/>
-  <child link="right_motor_1_1"/>
+  <child link="motor_right_1_1"/>
 </joint>
 
-<joint name="limb1_to_motor" type="continuous">
+<joint name="motor_1_joint" type="fixed">
+  <origin xyz="0.0044 -0.0215 -0.01845" rpy="0 0 0"/>
+  <parent link="box_motor_4_1"/>
+  <child link="motor_right_2_1"/>
+</joint>
+
+<joint name="motor_3_joint" type="fixed">
+  <origin xyz="0.0044 0.0215 -0.01845" rpy="0 0 0"/>
+  <parent link="box_motor_2_1"/>
+  <child link="motor_left_2_1"/>
+</joint>
+
+<joint name="motor_4_joint" type="fixed">
+  <origin xyz="-0.0044 0.0215 -0.01845" rpy="0 0 0"/>
+  <parent link="box_motor_1_1"/>
+  <child link="motor_left_1_1"/>
+</joint>
+
+<joint name="left_wheel_1_joint" type="continuous">
   <origin xyz="-0.2022 -0.021218 0.0623" rpy="0 0 0"/>
-  <parent link="left_motor_1_1"/>
+  <parent link="motor_left_1_1"/>
   <child link="left_wheel_1_1"/>
-  <axis xyz="0.0 -1.0 -0.0"/>
+  <axis xyz="-0.0 1.0 0.0"/>
 </joint>
 
-<joint name="limb2_to_motor" type="continuous">
+<joint name="left_wheel_2_joint" type="continuous">
   <origin xyz="0.2022 -0.021218 0.1065" rpy="0 0 0"/>
-  <parent link="left_motor_2_1"/>
+  <parent link="motor_left_2_1"/>
   <child link="left_wheel_2_1"/>
-  <axis xyz="-0.0 -1.0 -0.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
-<joint name="limb3_to_motor" type="continuous">
+<joint name="right_wheel_1_joint" type="continuous">
   <origin xyz="-0.0012 0.021218 -0.0623" rpy="0 0 0"/>
-  <parent link="right_motor_1_1"/>
+  <parent link="motor_right_1_1"/>
   <child link="right_wheel_1_1"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="-0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="right_wheel_2_joint" type="continuous">
+  <origin xyz="0.0012 0.021218 -0.1065" rpy="0 0 0"/>
+  <parent link="motor_right_2_1"/>
+  <child link="right_wheel_2_1"/>
+  <axis xyz="-0.0 1.0 0.0"/>
 </joint>
 
 </robot>
