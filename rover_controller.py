@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from motor_controller import MotorController
+from ultrassonic_controller import UltrassonicController
 
 class RoverController(Node):
     def __init__(self):
@@ -14,14 +15,23 @@ class RoverController(Node):
             Twist, '/cmd_vel', self.cmd_vel_callback, 10
         )
 
+        self.ultrassonic = UltrassonicController(trigger_pin=23, echo_pin=24)
+        self.ultrassonic.setup()
+
     def cmd_vel_callback(self, msg):
         linear = msg.linear.x
         angular = msg.angular.z
+        distance = self.ultrassonic.get_distance()
+        max_distance = 0.5
 
         # Movimento reto
         if linear != 0.0 and angular == 0.0:
-            speed_left = linear
-            speed_right = linear
+            if distance > max_distance:
+                speed_left = linear
+                speed_right = linear
+            else:
+                speed_left = 0.0
+                speed_right = 0.0
 
         # Giro no próprio eixo
         elif linear == 0.0 and angular != 0.0:
