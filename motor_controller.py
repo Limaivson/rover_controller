@@ -1,4 +1,4 @@
-from gpio.gpio_controller import GPIOController
+from gpio_controller import GPIOController
 
 class MotorController:
     def __init__(self, pwm_left, in1, in2, pwm_right, in3, in4):

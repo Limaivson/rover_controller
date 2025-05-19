@@ -1,4 +1,4 @@
-from gpio.gpio_controller import GPIOController
+from gpio_controller import GPIOController
 
 class LEDController:
     def __init__(self, led_pins):
