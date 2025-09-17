@@ -1,8 +1,8 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-from motor_controller import MotorController
-from ultrassonic_controller import UltrassonicController
+from irrobot_control.motor_controller import MotorController
+from irrobot_control.ultrassonic_controller import UltrassonicController
 
 class RoverController(Node):
     def __init__(self):
