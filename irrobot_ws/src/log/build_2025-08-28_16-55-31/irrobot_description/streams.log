@@ -1,0 +1,60 @@
+[0.312s] Invoking command in '/home/ils3/irrobot_ws/src/irrobot_description': PYTHONPATH=/home/ils3/irrobot_ws/src/build/irrobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ils3/irrobot_ws/src/install/irrobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/irrobot_description build --build-base /home/ils3/irrobot_ws/src/build/irrobot_description/build install --record /home/ils3/irrobot_ws/src/build/irrobot_description/install.log --single-version-externally-managed install_data
+[0.425s] running egg_info
+[0.425s] creating ../build/irrobot_description/irrobot_description.egg-info
+[0.425s] writing ../build/irrobot_description/irrobot_description.egg-info/PKG-INFO
+[0.425s] writing dependency_links to ../build/irrobot_description/irrobot_description.egg-info/dependency_links.txt
+[0.425s] writing entry points to ../build/irrobot_description/irrobot_description.egg-info/entry_points.txt
+[0.425s] writing requirements to ../build/irrobot_description/irrobot_description.egg-info/requires.txt
+[0.425s] writing top-level names to ../build/irrobot_description/irrobot_description.egg-info/top_level.txt
+[0.425s] writing manifest file '../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+[0.426s] reading manifest file '../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+[0.427s] writing manifest file '../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+[0.427s] running build
+[0.427s] running build_py
+[0.427s] creating /home/ils3/irrobot_ws/src/build/irrobot_description/build
+[0.427s] creating /home/ils3/irrobot_ws/src/build/irrobot_description/build/lib
+[0.427s] creating /home/ils3/irrobot_ws/src/build/irrobot_description/build/lib/irrobot_description
+[0.427s] copying irrobot_description/__init__.py -> /home/ils3/irrobot_ws/src/build/irrobot_description/build/lib/irrobot_description
+[0.427s] running install
+[0.427s] running install_lib
+[0.427s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/lib/python3.10/site-packages/irrobot_description
+[0.427s] copying /home/ils3/irrobot_ws/src/build/irrobot_description/build/lib/irrobot_description/__init__.py -> /home/ils3/irrobot_ws/src/install/irrobot_description/lib/python3.10/site-packages/irrobot_description
+[0.428s] byte-compiling /home/ils3/irrobot_ws/src/install/irrobot_description/lib/python3.10/site-packages/irrobot_description/__init__.py to __init__.cpython-310.pyc
+[0.428s] running install_data
+[0.428s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/ament_index
+[0.428s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/ament_index/resource_index
+[0.428s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/ament_index/resource_index/packages
+[0.428s] copying resource/irrobot_description -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/ament_index/resource_index/packages
+[0.428s] copying package.xml -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description
+[0.428s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/launch
+[0.428s] copying launch/display.launch.py -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/launch
+[0.428s] copying launch/gazebo.launch.py -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/launch
+[0.428s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.428s] copying urdf/materials.xacro -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.428s] copying urdf/irrobot.ros2_control.xacro -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.428s] copying urdf/irrobot.gazebo -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.429s] copying urdf/irrobot.trans -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.429s] copying urdf/irrobot.xacro -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.429s] copying urdf/irrobot.urdf.xacro -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/urdf
+[0.429s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.429s] copying meshes/box_motor_2_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.429s] copying meshes/front_base_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.429s] copying meshes/motor_right_2_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.431s] copying meshes/box_motor_4_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.432s] copying meshes/left_wheel_1_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.437s] copying meshes/motor_left_2_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.438s] copying meshes/box_motor_3_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.438s] copying meshes/right_wheel_1_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.439s] copying meshes/base_link.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.439s] copying meshes/box_motor_1_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.439s] copying meshes/motor_left_1_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.440s] copying meshes/left_wheel_2_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.441s] copying meshes/right_wheel_2_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.442s] copying meshes/motor_right_1_1.stl -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/meshes
+[0.443s] creating /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/config
+[0.443s] copying config/display.rviz -> /home/ils3/irrobot_ws/src/install/irrobot_description/share/irrobot_description/config
+[0.443s] running install_egg_info
+[0.445s] Copying ../build/irrobot_description/irrobot_description.egg-info to /home/ils3/irrobot_ws/src/install/irrobot_description/lib/python3.10/site-packages/irrobot_description-0.0.0-py3.10.egg-info
+[0.445s] running install_scripts
+[0.457s] writing list of installed files to '/home/ils3/irrobot_ws/src/build/irrobot_description/install.log'
+[0.471s] Invoked command in '/home/ils3/irrobot_ws/src/irrobot_description' returned '0': PYTHONPATH=/home/ils3/irrobot_ws/src/build/irrobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ils3/irrobot_ws/src/install/irrobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/irrobot_description build --build-base /home/ils3/irrobot_ws/src/build/irrobot_description/build install --record /home/ils3/irrobot_ws/src/build/irrobot_description/install.log --single-version-externally-managed install_data

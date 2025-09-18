@@ -1,0 +1,50 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/irrobot_description/irrobot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/irrobot_description/irrobot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/irrobot_description/irrobot_description.egg-info/entry_points.txt
+writing requirements to ../../build/irrobot_description/irrobot_description.egg-info/requires.txt
+writing top-level names to ../../build/irrobot_description/irrobot_description.egg-info/top_level.txt
+reading manifest file '../../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+copying irrobot_description/__init__.py -> /home/ils3/irrobot_ws/build/irrobot_description/build/lib/irrobot_description
+running install
+running install_lib
+copying /home/ils3/irrobot_ws/build/irrobot_description/build/lib/irrobot_description/__init__.py -> /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description
+byte-compiling /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/irrobot_description -> /home/ils3/irrobot_ws/install/irrobot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description
+creating /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/launch
+copying launch/display.launch.py -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/launch
+copying launch/gazebo.launch.py -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/launch
+creating /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/urdf
+copying urdf/materials.xacro -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/urdf
+copying urdf/irrobot.gazebo -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/urdf
+copying urdf/irrobot.trans -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/urdf
+copying urdf/irrobot.xacro -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/urdf
+creating /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/box_motor_2_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/front_base_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/motor_right_2_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/box_motor_4_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/left_wheel_1_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/motor_left_2_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/box_motor_3_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/right_wheel_1_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/base_link.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/box_motor_1_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/motor_left_1_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/left_wheel_2_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/right_wheel_2_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+copying meshes/motor_right_1_1.stl -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/meshes
+creating /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/config
+copying config/display.rviz -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description/config
+running install_egg_info
+removing '/home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/irrobot_description/irrobot_description.egg-info to /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ils3/irrobot_ws/build/irrobot_description/install.log'

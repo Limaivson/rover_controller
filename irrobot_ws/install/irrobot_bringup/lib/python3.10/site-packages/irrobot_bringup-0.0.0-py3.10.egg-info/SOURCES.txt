@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/irrobot_bringup/irrobot_bringup.egg-info/PKG-INFO
+../../build/irrobot_bringup/irrobot_bringup.egg-info/SOURCES.txt
+../../build/irrobot_bringup/irrobot_bringup.egg-info/dependency_links.txt
+../../build/irrobot_bringup/irrobot_bringup.egg-info/entry_points.txt
+../../build/irrobot_bringup/irrobot_bringup.egg-info/requires.txt
+../../build/irrobot_bringup/irrobot_bringup.egg-info/top_level.txt
+../../build/irrobot_bringup/irrobot_bringup.egg-info/zip-safe
+irrobot_bringup/__init__.py
+launch/bringup.launch.py
+resource/irrobot_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

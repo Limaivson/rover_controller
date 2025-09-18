@@ -1,0 +1,4 @@
+source;share/irrobot_bringup/local_setup.bash
+source;share/irrobot_bringup/local_setup.dsv
+source;share/irrobot_bringup/local_setup.sh
+source;share/irrobot_bringup/local_setup.zsh

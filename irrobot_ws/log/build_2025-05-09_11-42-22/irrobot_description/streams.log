@@ -1,0 +1,33 @@
+[0.345s] Invoking command in '/home/ils3/irrobot_ws/src/irrobot_description': PYTHONPATH=/home/ils3/irrobot_ws/build/irrobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrobot_description build --build-base /home/ils3/irrobot_ws/build/irrobot_description/build install --record /home/ils3/irrobot_ws/build/irrobot_description/install.log --single-version-externally-managed install_data
+[0.473s] running egg_info
+[0.473s] creating ../../build/irrobot_description/irrobot_description.egg-info
+[0.473s] writing ../../build/irrobot_description/irrobot_description.egg-info/PKG-INFO
+[0.473s] writing dependency_links to ../../build/irrobot_description/irrobot_description.egg-info/dependency_links.txt
+[0.473s] writing entry points to ../../build/irrobot_description/irrobot_description.egg-info/entry_points.txt
+[0.473s] writing requirements to ../../build/irrobot_description/irrobot_description.egg-info/requires.txt
+[0.473s] writing top-level names to ../../build/irrobot_description/irrobot_description.egg-info/top_level.txt
+[0.473s] writing manifest file '../../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+[0.474s] reading manifest file '../../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+[0.475s] writing manifest file '../../build/irrobot_description/irrobot_description.egg-info/SOURCES.txt'
+[0.475s] running build
+[0.475s] running build_py
+[0.475s] creating /home/ils3/irrobot_ws/build/irrobot_description/build
+[0.475s] creating /home/ils3/irrobot_ws/build/irrobot_description/build/lib
+[0.475s] creating /home/ils3/irrobot_ws/build/irrobot_description/build/lib/irrobot_description
+[0.475s] copying irrobot_description/__init__.py -> /home/ils3/irrobot_ws/build/irrobot_description/build/lib/irrobot_description
+[0.475s] running install
+[0.475s] running install_lib
+[0.475s] creating /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description
+[0.475s] copying /home/ils3/irrobot_ws/build/irrobot_description/build/lib/irrobot_description/__init__.py -> /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description
+[0.476s] byte-compiling /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description/__init__.py to __init__.cpython-310.pyc
+[0.476s] running install_data
+[0.476s] creating /home/ils3/irrobot_ws/install/irrobot_description/share/ament_index
+[0.476s] creating /home/ils3/irrobot_ws/install/irrobot_description/share/ament_index/resource_index
+[0.476s] creating /home/ils3/irrobot_ws/install/irrobot_description/share/ament_index/resource_index/packages
+[0.476s] copying resource/irrobot_description -> /home/ils3/irrobot_ws/install/irrobot_description/share/ament_index/resource_index/packages
+[0.476s] copying package.xml -> /home/ils3/irrobot_ws/install/irrobot_description/share/irrobot_description
+[0.476s] running install_egg_info
+[0.477s] Copying ../../build/irrobot_description/irrobot_description.egg-info to /home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages/irrobot_description-0.0.0-py3.10.egg-info
+[0.477s] running install_scripts
+[0.489s] writing list of installed files to '/home/ils3/irrobot_ws/build/irrobot_description/install.log'
+[0.504s] Invoked command in '/home/ils3/irrobot_ws/src/irrobot_description' returned '0': PYTHONPATH=/home/ils3/irrobot_ws/build/irrobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ils3/irrobot_ws/install/irrobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/irrobot_description build --build-base /home/ils3/irrobot_ws/build/irrobot_description/build install --record /home/ils3/irrobot_ws/build/irrobot_description/install.log --single-version-externally-managed install_data

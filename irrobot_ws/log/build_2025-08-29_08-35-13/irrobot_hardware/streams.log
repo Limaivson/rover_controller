@@ -1,0 +1,35 @@
+[0.131s] Invoking command in '/home/ils3/irrobot_ws/build/irrobot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ils3/irrobot_ws/install/irrobot_description:/opt/ros/humble /usr/bin/cmake /home/ils3/irrobot_ws/src/irrobot_hardware -DCMAKE_INSTALL_PREFIX=/home/ils3/irrobot_ws/install/irrobot_hardware
+[0.277s] -- The C compiler identification is GNU 11.4.0
+[0.327s] -- The CXX compiler identification is GNU 11.4.0
+[0.341s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.571s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.649s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.649s]   By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.649s]   asked CMake to find a package configuration file provided by "rclpp", but
+[0.649s]   CMake did not find one.
+[0.649s] 
+[0.649s]   Could not find a package configuration file provided by "rclpp" with any of
+[0.649s]   the following names:
+[0.649s] 
+[0.649s]     rclppConfig.cmake
+[0.649s]     rclpp-config.cmake
+[0.649s] 
+[0.649s]   Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set
+[0.649s]   "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"
+[0.649s]   provides a separate development package or SDK, be sure it has been
+[0.649s]   installed.
+[0.649s] 
+[0.649s] [0m
+[0.649s] -- Configuring incomplete, errors occurred!
+[0.649s] See also "/home/ils3/irrobot_ws/build/irrobot_hardware/CMakeFiles/CMakeOutput.log".
+[0.652s] Invoked command in '/home/ils3/irrobot_ws/build/irrobot_hardware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ils3/irrobot_ws/install/irrobot_description:/opt/ros/humble /usr/bin/cmake /home/ils3/irrobot_ws/src/irrobot_hardware -DCMAKE_INSTALL_PREFIX=/home/ils3/irrobot_ws/install/irrobot_hardware
